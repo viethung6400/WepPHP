@@ -1,0 +1,90 @@
+/*---------------Mặc-định--------------*/
+:root {
+    --color-1: #00ACEB;
+    --color-2: #19C2FF;
+    --color-3: #00749E;
+    --color-4: #9E5200;
+    --color-5: #EB7900;
+    --color-6: #004F6B;
+}
+.keochuot:hover{
+    color: var(--color-3);
+}
+.keochuot i:hover{
+    color: var(--color-3);
+}
+/*-------------------------------------------*/
+/*----------Header--------------------------*/
+.h-top{
+    background-color: var(--color-1);
+}
+.h-topleft{
+    display: flex;
+    justify-content: left;
+}
+.h-topleft h2{
+    font-size: 200%;
+    color: white;
+    padding-top: 22px;
+}
+.h-topright{
+    padding-top: 20px;
+}
+.h-top .keochuot:hover{
+    color: var(--color-3);
+}
+/*------------------Section-Admin------------------*/
+#admin-section{
+    margin-top: 10px;
+    display: flex;
+}
+/*------------BAR----------------------------*/
+#bar{
+    width: 260px;
+}
+.bar-ul{
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+.bar-li{
+    padding-bottom: 10px;
+}
+.bar-ul a{
+    color: rgb(39, 39, 39);
+}
+.li-tide{
+    padding: 16px;
+    padding-left: 30px;
+    background-color: var(--color-1);
+    font-size: 110%;
+}
+.usecase{
+    font-size: 90%;
+    margin: 16px 0;
+    padding-left: 40px;
+}
+/*--------------------Work------------------------*/
+#work{
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    padding: 10px;
+    flex: 1;
+    padding-top: 20px;
+}
+#work .search{
+    padding-right: 6px;
+    float: left;
+    background-color: rgb(199, 199, 199);
+    border-radius: 0px;
+}
+.search i:hover{/*Hieu ung dau gach duoi*/
+    color: var(--color-2);
+}
+.edit{
+    margin-top: 10px;
+}
+/*-------------footer--------------------*/
+footer{
+    margin-top: 50px;
+}

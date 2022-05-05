@@ -1,0 +1,90 @@
+:root {
+    --color-1: #00ACEB;
+    --color-2: #19C2FF;
+    --color-3: #00749E;
+    --color-4: #9E5200;
+    --color-5: #EB7900;
+    --color-6: #004F6B;
+}
+#login{
+    height: 500px;
+    background-image: url("../ima/backg_trex.png");
+}
+#login div{
+    margin: 0 auto;
+    width: 600px;
+}
+#loginfrom{
+    padding-left: 28px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 6px 8px rgb(148, 148, 148);
+}
+p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+input{
+    padding-left: 12px;
+    width: 92%;
+    height: 30px;
+    border-radius: 6px;
+}
+button{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 42%;
+    height: 40px;
+    background-color: var(--color-5);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+#btnDangKy{
+    background-color: var(--color-1);
+}
+#btnDangKy:hover{
+    background-color: var(--color-3);
+}
+button:hover{
+    background-color: var(--color-4);
+}
+/*-----------------Registration------------------*/
+#signup{
+    background-image: url("../ima/backg_trex.png");
+    padding-bottom: 100px;
+}
+#signup div{
+    margin: 0 auto;
+    width: 600px;
+}
+#sign_up_from{
+    padding-left: 28px;
+    padding-bottom: 10px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 6px 8px rgb(148, 148, 148);
+}
+#sign_up_from p{
+    width: 150px;
+    display: inline-block;
+}
+#sign_up_from input{
+    display: inline-block;
+    position: relative;
+    max-width: 360px;
+    margin-top: 18px;
+}
+#sign_up_from button{
+    display: block;
+    margin: 20px auto;
+}
+#sign_up_from .chudo{
+    margin-left: 150px;
+    width: 360px;
+    color: red;
+}
